@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: javalearning
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: local
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/java-animals?targetServerType=primary
