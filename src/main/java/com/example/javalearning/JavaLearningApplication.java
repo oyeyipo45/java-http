@@ -8,6 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories(basePackages = {"com.example.javalearning.*"})
 public class JavaLearningApplication {
 
+
 	public static void main(String[] args) {
 		SpringApplication.run(JavaLearningApplication.class, args);
 	}

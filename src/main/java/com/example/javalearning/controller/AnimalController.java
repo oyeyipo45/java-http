@@ -28,6 +28,5 @@ public class AnimalController {
     public ResponseEntity<Animal> createAnimals(@RequestBody AnimalDTO animalDto) {
 
         return new ResponseEntity<>(animalService.createAnimals(animalDto), HttpStatus.CREATED);
-
     }
 }
